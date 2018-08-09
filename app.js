@@ -363,7 +363,7 @@ class FacebookBot {
     }
 
     connectToMQTT(msg) {
-        var url = 'mqtt://m14.cloudmqtt.com:16129';
+        var url = 'mqtt://m10.cloudmqtt.com:16749';
 
         var options = {
             clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
